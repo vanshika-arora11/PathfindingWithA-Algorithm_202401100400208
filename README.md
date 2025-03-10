@@ -23,6 +23,7 @@ get_grid_input():
 Handles user input for the grid size, obstacles, and positions for the start and goal.
 
 How It Works:
+
 Initialization: The start node is added to the Open List with an initial f score.
 Node Expansion: The node with the lowest f score is expanded. Its neighbors are evaluated, and valid ones are added to the Open List.
 Pathfinding: The algorithm explores neighbors, updating scores and backtracking once the goal is reached.
